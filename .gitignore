@@ -6,3 +6,5 @@ node_modules
 config/development.config*.js
 
 *app.json
+
+heroku-config-cli.txt
