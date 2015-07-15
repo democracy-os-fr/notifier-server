@@ -1,8 +1,13 @@
 
-0.2.1 / 2015-03-25
+0.4.0 / 2015-06-30
 ==================
 
-  * Add feededAt attribute on feed model
+ * Disable hub-specific functionalities
+
+0.1.12 / 2015-06-11
+===================
+
+  * Fix RESET_PASSWORD_URL on templates #37
 
 0.2.0 / 2015-03-19
 ==================
