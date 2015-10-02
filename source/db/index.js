@@ -17,7 +17,7 @@ module.exports = function (config, connection) {
   }
 
   // connect to db
-  var db = mongo.connect(config[connection], collections);
+  var db = mongo(config[connection], collections, { authMechanism: 'ScramSHA1' });
 
 	if (!db) {
 		throw new Error('could not connect to ' + config.connection);
